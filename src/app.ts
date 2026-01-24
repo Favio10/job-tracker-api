@@ -7,7 +7,10 @@ app.get("/", (_req, res) => {
   res.send("Hello World");
 });
 
+app.get("/dashboard", (req, res) => {
+  res.send("aqui podemos ver el dashboard de pantalla");
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
-  log;
 });
