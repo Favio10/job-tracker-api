@@ -8,7 +8,7 @@ app.get("/", (_req, res) => {
 });
 
 app.get("/dashboard", (req, res) => {
-  res.send("aqui podemos ver el dashboard de pantalla");
+  res.send("aqui podemos ver el dashboard de pantalla y graficos");
 });
 
 app.listen(PORT, () => {
